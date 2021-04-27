@@ -16,26 +16,27 @@ document.addEventListener(
 
 export const carsRUs = () => {
     return `
-    <section class="choices">
-        <section class="choices-colors">
+    <h1>Cars-R-Us</h1>
+    <section class="choices-container">
+        <section class="choices">
             <h2>Colors</h2>
            ${Colors()}
         </section>
-        <section class="choices-interior">
+        <section class="choices">
             <h2>Interiors</h2>
           ${Interiors()}
         </section>
-        <section class="choices-technology">
+        <section class="choices">
             <h2>Technologies</h2>
            ${Technologies()}
         </section>
-        <section class="choices-wheels">
+        <section class="choices">
             <h2>Wheels</h2>
            ${Wheels()}
         </section>
     </section>
 
-    <section>
+    <section class="button-container">
         <button id="order-button">Create Order</button>
     </section>
 
